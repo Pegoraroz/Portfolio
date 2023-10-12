@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import matriz from "../../Assets/Projects/matriz.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import primeirositesite from "../../Assets/Projects/primeiro-site.png";
+import lhpets from "../../Assets/Projects/lhpets.png";
 
 function Projects() {
   return (
@@ -43,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={lhpets}
               isBlog={false}
               title="LH Pets"
               description="Site criado para fazer Gerenciamento de Clínicas veterinárias, obtendo informações sobre o cliente, clínica e paciente, conseguindo também fazer o orçamento dos procedimentos realizados"
